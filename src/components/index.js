@@ -8,6 +8,7 @@ import JustForFun from './JustForFun';
 import Education from './Education';
 import Contact from './Contact';
 import Experience from './Experience';
+import Resume from './Resume';
 
 
 export {
@@ -18,7 +19,8 @@ export {
   Education,
   Experience, 
   Project, 
-  JustForFun, 
+  JustForFun,
+  Resume, 
   Contact,
   EarthCanvas, 
   BallCanvas, 

@@ -81,21 +81,23 @@ import {
       
     },
     {
+      id: "resume",
+      title: "Resume",
+    },
+    {
       id: "contact",
       title: "Contact",
       
-    },
-    
-    
+    },   
   ];
   
   const services = [
     {
-      title: "Full Stack Web Developer",
+      title: "Software Development Engineer",
       icon: web,
     },
     {
-      title: "AI/ML Engineer",
+      title: "AI / ML Engineer",
       icon: creator,
     },
     {
@@ -103,7 +105,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Research Scientist",
+      title: "Backend Developer",
       icon: backend,
     },
   ];
