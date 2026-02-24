@@ -9,21 +9,22 @@ import Education from './Education';
 import Contact from './Contact';
 import Experience from './Experience';
 import Resume from './Resume';
-
+import Freelance from './Freelance';
 
 export {
   Hero,
   Navbar,
   About,
-  TechStack, 
+  TechStack,
   Education,
-  Experience, 
-  Project, 
+  Experience,
+  Freelance,
+  Project,
   JustForFun,
-  Resume, 
+  Resume,
   Contact,
-  EarthCanvas, 
-  BallCanvas, 
-  ComputersCanvas, 
+  EarthCanvas,
+  BallCanvas,
+  ComputersCanvas,
   StarsCanvas
 }

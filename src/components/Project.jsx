@@ -7,9 +7,9 @@ import { sectionWrapper } from "../HOC";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link }) => {
-  return(
+  return (
     <motion.div
-      variance={fadeIn("up","spring", index * 0.5, 0.75)}
+      variance={fadeIn("up", "spring", index * 0.5, 0.75)}
       className="bg-tertiary p-5 rounded-[20px] sm:w-[360px] w-full"
       style={{ height: '550px' }}  // Set a fixed height for the entire card
     >
@@ -65,29 +65,29 @@ const Project = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-    <p className={styles.sectionSubText}>Explore my innovative projects that blend cutting-edge technology with artistic creativity.</p>
+        <p className={styles.sectionSubText}>Explore my innovative projects that blend cutting-edge technology with artistic creativity.</p>
         <h2 className={styles.sectionHeadText}>Projects.</h2>
-    </motion.div>
-        <div className="w-full flex">
-          <motion.p
-            variants={fadeIn("","",0.1,1)}
-            className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
-            >
-              My projects highlight the synergy between technology and creativity across AI, ML, Data Science, and Web Development. 
-              Each reflects my dedication to solving real-world problems through neural networks, NLP, and computer vision, often enhanced with digital art and design for impactful user experiences. 
-              These projects showcase both my technical expertise and my passion for leveraging creativity to drive meaningful outcomes !
-            </motion.p>
+      </motion.div>
+      <div className="w-full flex">
+        <motion.p
+          variants={fadeIn("", "", 0.1, 1)}
+          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
+        >
+          My projects highlight the synergy between technology and creativity across AI, ML, Data Science, and Web Development.
+          Each reflects my dedication to solving real-world problems through neural networks, NLP, and computer vision, often enhanced with digital art and design for impactful user experiences.
+          These projects showcase both my technical expertise and my passion for leveraging creativity to drive meaningful outcomes !
+        </motion.p>
 
-        </div>
-        <div className="mt-20 flex flex-wrap gap-7 text-justify">
-          {projects.map((project, index) =>(
-            <ProjectCard key={`project-${index}`}
+      </div>
+      <div className="mt-20 flex flex-wrap gap-7 text-justify">
+        {projects.map((project, index) => (
+          <ProjectCard key={`project-${index}`}
             index={index}
-            {...project}/>
-          ))}
-        </div>
+            {...project} />
+        ))}
+      </div>
     </>
   )
 }
 
-export default sectionWrapper(Project,"project");
+export default sectionWrapper(Project, "project");
