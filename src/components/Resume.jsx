@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { sectionWrapper } from "../HOC";
 import { fadeIn, textVariant } from "../utils/motion";
+import { resume_bg } from "../assets";
 
 const Resume = () => {
   const resumePDF = "/Amith_M_Jain_Resume.pdf"; // Put Amith_M_Jain_Resume.pdf inside public/
@@ -60,7 +61,7 @@ const Resume = () => {
           <div
             className="absolute inset-0 rounded-[20px]"
             style={{
-              backgroundImage: "url('src/assets/resume_bg.png')",
+              backgroundImage: `url(${resume_bg})`,
               backgroundSize: "cover",
               backgroundPosition: "center",
               backgroundRepeat: "no-repeat",

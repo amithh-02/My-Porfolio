@@ -60,6 +60,9 @@ import traffic_analyisis from "./traffic_analyisis.png";
 import echosight from "./echosight.png";
 import verseai from "./verseai.png";
 import answersheet from "./answersheet.png";
+import nayana_landing from "./nayana_landing.jpg";
+import geektrust from "./geektrust.png";
+import resume_bg from "./resume_bg.png";
 
 export {
   logoq,
@@ -121,5 +124,8 @@ export {
   echosight,
   verseai,
   answersheet,
+  nayana_landing,
+  geektrust,
+  resume_bg,
 
 };

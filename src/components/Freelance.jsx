@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { sectionWrapper } from "../HOC";
 import { fadeIn, textVariant } from "../utils/motion";
+import { nayana_landing, geektrust } from "../assets";
 
 // Freelance projects data - add this to your constants file or keep it here
 const freelanceProjects = [
@@ -19,7 +20,7 @@ const freelanceProjects = [
             { name: "TypeScript", color: "text-green-400" },
             { name: "EmailJS", color: "text-purple-400" },
         ],
-        image: "src/assets/nayana_landing.jpg", // Add your project image
+        image: nayana_landing, // Add your project image
         website_link: "https://www.nayanaconstructions.com",
         size: "large", // large or small
     },
@@ -34,7 +35,7 @@ const freelanceProjects = [
             { name: "Monitoring", color: "text-cyan-400" },
             { name: "Reporting", color: "text-pink-500" },
         ],
-        image: "src/assets/geektrust.png",
+        image: geektrust,
         website_link: "https://www.geektrust.com",
         size: "small",
     },
