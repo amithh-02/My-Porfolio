@@ -10,6 +10,7 @@ import Contact from './Contact';
 import Experience from './Experience';
 import Resume from './Resume';
 import Freelance from './Freelance';
+import Fiverr from './Fiverr';
 
 export {
   Hero,
@@ -26,5 +27,6 @@ export {
   EarthCanvas,
   BallCanvas,
   ComputersCanvas,
-  StarsCanvas
+  StarsCanvas,
+  Fiverr,
 }
