@@ -71,7 +71,7 @@ export const navLinks = [
   {
     id: "githublink",
     title: "Github",
-    url: "https://github.com/Quiirky-codes",
+    url: "https://github.com/amithh-02",
 
   },
   {
